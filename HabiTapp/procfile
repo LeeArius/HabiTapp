@@ -1,1 +1,1 @@
-web: gunicorn HabiTapp.wsgi --log-file -
+web: gunicorn HabiTapp.wsgi 
