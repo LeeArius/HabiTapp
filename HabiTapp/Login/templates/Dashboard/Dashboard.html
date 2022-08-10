@@ -1,0 +1,18 @@
+{% extends 'Dashboard/base_dash.html' %}
+
+{% load static %}
+{% block content %}
+
+        <div>
+            <a href="Date/"><img src="{% static 'Circle.png' %}" id="circle"></a>
+            <section id="settings">
+                <h2><a href="WD/">Wind Down</a></h2>
+                    <p class="off">Off</p>
+                <h2><a href="FM/">Focus Mode</a></h2>
+                    <p class="off">Off</p>
+                <h2><a href="MUA/">Most Used Apps</a></h2>
+            </section>
+            
+        </div>
+
+{% endblock content %}

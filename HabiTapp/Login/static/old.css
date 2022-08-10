@@ -1,0 +1,108 @@
+/* 
+#h4 {
+    padding: 20px 25% 0px 25%;
+    display:inline-flex;
+    justify-self: center;
+} 
+
+#switch1 {
+    position: relative;
+    left: 100px;
+}
+
+#onoff1 {
+    color: #26252F;
+    position: relative;
+    left: 100px;
+}
+
+#info {
+    margin-top: 25%;
+    line-height: 1.8px;
+}
+/*
+#bigcontainer {
+    width: 90%;
+}
+
+#start, #end {
+    position: relative;
+    top: 10%;
+}
+
+#start{
+    right: 31%;
+    font-size: 15px;
+}
+
+#end {
+    left: 14%;
+    font-size: 15px;
+}
+
+#time, #time2 {
+    position: relative;
+    top: 12.5%;
+    font-size: 11px;
+}
+
+#time {
+    right: 37.5%;
+}
+
+#time2 {
+    left: 6.25%;
+}
+
+button {
+    background-color: #26252F;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 35px;
+    position: relative;
+    top: -49%;
+    left: 28%;
+    margin: 0px 20px;
+}
+
+#DND {
+    position: relative;
+    top: 45%;
+    right: 52.5%;
+}
+
+#grey {
+    position: relative;
+    top: 62.5%;
+    right: 65.5%;
+}
+
+#dndswitch {
+    position: relative;
+    top: 45%;
+    right: 18%;
+}
+
+#greyswitch {
+    position: relative;
+    top: 52.5%;
+    left: 72.7%;
+    /* outline: 5px solid red; 
+ }  
+
+#MUA {
+    position: relative;
+    left: 45%;
+} 
+
+/* Apps */
+
+/* img {
+    height: 75px;
+    width: 75px;
+} */

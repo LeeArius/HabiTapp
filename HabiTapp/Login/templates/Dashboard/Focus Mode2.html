@@ -1,0 +1,43 @@
+{% extends 'Dashboard/base_dash.html' %}
+
+    {% load static %}
+    {% block content %}
+
+        <div id="bigcontainer">
+            <h4 id="h4">Focus Mode</h4>
+            <input type="checkbox" id="switch" class="checkbox" onclick="window.location='../FM/'"/>
+            <br>
+            <section class="apps">
+                <img src="{% static 'messenger.webp' %}">
+
+            </section>
+            <p class="fapptxt">Messenger</p>
+            <section class="apps">
+                <img src="{% static 'fb.webp' %}">
+
+            </section>
+            <p class="fapptxt">Facebook</p>
+            <section class="apps">
+                <img src="{% static 'yt.webp' %}">
+
+            </section>
+            <p class="fapptxt">Youtube</p>
+            <section class="apps">
+                <img src="{% static 'sc.webp' %}">
+
+            </section>
+            <p class="fapptxt">&nbsp Snapchat</p>
+            <section class="apps">
+                <img src="{% static 'dc.webp' %}">
+            </section>
+            <p class="fapptxt">Discord</p>
+            &nbsp&nbsp&nbsp
+            <section class="apps">
+                <img src="{% static 'Tiktok.png' %}">
+
+            </section>
+            <p class="fapptxt"> Tiktok</p>
+            <br><br>
+            <h6>Pause distracting apps when you need time to focus</h6>
+        </div>
+    {% endblock content %}

@@ -1,0 +1,28 @@
+{% extends 'Dashboard/base_dash.html' %}
+
+    {% load static %}
+    {% block content %}
+
+        <div id="bigcontainer">
+            <h4 id="h4">Wind Down</h4>
+            <input type="checkbox" id="switch" class="checkbox" onclick="window.location='../WD/'"/>
+            <p id="start">Start</p><p id="end">End</p>
+            <p id="time">10:00 PM</p> <p id="time2">10:00 PM</p>
+
+            <button type="button" id="btn" onclick="DayFunc()">S</button>
+            <button type="button" >M</button>
+            <button type="button" >T</button>
+            <button type="button" >W</button>
+            <button type="button" >T</button>
+            <button type="button" >F</button>
+            <button type="button" >S</button>
+
+            <p id="DND">Do Not Disturb</p>
+                <input type="checkbox" id="dndswitch" class="checkbox"/>
+            <p id="grey">Greyscale</p>
+                <input type="checkbox" id="greyswitch" class="checkbox"/>
+
+            <h6 id="WDtxt">Your schedule will start again when Wind Down is on</h6>
+        </div>
+        
+    {% endblock content %}

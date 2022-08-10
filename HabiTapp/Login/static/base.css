@@ -1,0 +1,48 @@
+* {
+    color: #26252F;
+    font-family: Comfortaa;
+}
+
+body {
+    background-image: url('BG.png') ;
+    background-size:cover;
+}
+
+section {
+    background-color: rgba(217,217,217,0.6);
+    width: 400px;
+    margin-top: 5%;
+    margin-left: 35.1%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#start {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #26252F;
+    border-color: #26252F;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 300px;
+}

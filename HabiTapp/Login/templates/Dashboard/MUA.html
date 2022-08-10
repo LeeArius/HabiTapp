@@ -1,0 +1,43 @@
+{% extends 'Dashboard/base_dash.html' %}
+
+    {% load static %}
+    {% block content %}
+
+        <div id="bigcontainer">
+            <h4 id="MUA">Most Used Apps</h4>
+            <br>
+            <section class="apps">
+                <img src="{% static 'messenger.webp' %}">
+                <p id="txt">10h and 51min</p>
+            </section>
+            <p class="apptext">Messenger</p>
+            <section class="apps">
+                <img src="{% static 'fb.webp' %}">
+                <p id="txt">9h and 12min</p>
+            </section>
+            <p class="apptext">Facebook</p>
+            <section class="apps">
+                <img src="{% static 'yt.webp' %}">
+                <p id="txt">7h and 37min</p>
+            </section>
+            <p class="apptext">Youtube</p>
+            <section class="apps">
+                <img src="{% static 'sc.webp' %}">
+                <p id="txt">4h and 6min</p>
+            </section>
+            <p class="apptext">&nbsp Snapchat</p>
+            <section class="apps">
+                <img src="{% static 'dc.webp' %}">
+                <p id="txt">2h and 33min</p>
+            </section>
+            <p class="apptext">Discord</p>
+            &nbsp&nbsp&nbsp&nbsp
+            <section class="apps">
+                <img src="{% static 'Tiktok.png' %}">
+                <p id="txt">1h and 45min</p>
+            </section>
+            <p class="apptext"> Tiktok</p>
+
+        </div>
+
+    {% endblock content %}

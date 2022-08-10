@@ -1,0 +1,75 @@
+* {
+    background-color: #26252F;
+    color: white;
+    font-family: Comfortaa;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding-top: 50px;
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+#quote {
+    color: white;
+}
+
+/* Login */
+
+div.form-container {
+    margin: 100px 540px 0px 540px ;
+}
+
+input {
+    text-align: center;
+    margin: 5px 0px;
+    padding: 15px 45px;
+    border-radius: 21px;
+    background-color: #D9D9D9;
+    color: #26252F;
+}
+
+.login {
+    padding: 15px 100px;
+    font-size: 15px;
+    background-color: #D9D9D9;
+    border-color: #26252F;
+    color: #26252F;
+    border-radius: 21px;
+    position: relative;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.SignUp {
+    padding: 15px 95px;
+    font-size: 15px;
+    background-color: #D9D9D9;
+    border-color: #26252F;
+    color: #26252F;
+    border-radius: 21px;
+    position: relative;
+    margin-top: 42px;
+    font-weight: bold;
+}
+
+.subtext {
+    margin-top: 30px;
+    font-size: small;
+}
+
+.uText {
+    text-decoration: underline;
+}
+

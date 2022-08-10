@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% load static %}
+        <title>HabiTapp</title>
+        <link rel="stylesheet" href="{% static 'dashboard.css' %}">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Comfortaa'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <h1><a href=".." id="home">HabiTapp</a></h1>
+        <h6 id="quote">"Your Habits in an App with just one Tap"</h6>
+
+            {% block content %}
+            {% endblock content %}
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

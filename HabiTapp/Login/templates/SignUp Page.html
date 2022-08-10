@@ -1,0 +1,17 @@
+{% extends 'base1.html' %}
+
+{% load static %}
+{% block content %}
+        
+        <div class="form-container">
+            <form action="/LoginPage/" method="post">
+                {% csrf_token %}
+                <input type="text" name="user" placeholder="User" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="password" name="re_pass" placeholder="Re-enter Password" required>
+                <a href="../LoginPage/"><button class="SignUp" type="submit">SignUp</button></a>
+            </form>
+            <p class="subtext">Already have an account? <a href="../LoginPage/" class="uText">Login Here</a></p>
+        </div>
+
+    {% endblock content %}

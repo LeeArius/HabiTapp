@@ -1,0 +1,17 @@
+{% extends 'base1.html' %}
+
+{% load static %}
+{% block content %}
+
+        <div class="form-container">
+            <form action="/Dashboard/" method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                        <input type="text" name="user" placeholder="User" required>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <a href="../Dashboard/"><button class="login" type="submit">Login</button></a>
+            </form>
+            <p class="subtext">Don't have an account? <a href="../SignUp/" class="uText">Sign Up Here</p></p>
+        </div>
+
+{% endblock content %}
